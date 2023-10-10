@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Floor
   - Ground
+  - SecondScene
+  - IntroScene
+  - ThirdScene
+  - MainScene
   layers:
   - Default
   - TransparentFX

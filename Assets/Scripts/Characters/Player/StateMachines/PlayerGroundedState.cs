@@ -21,7 +21,7 @@ public class PlayerGroundedState : PlayerBaseState
         StopAnimation(stateMachine.Player.AnimationData.GroundParameterHash);
     }
 
-public override void Update()
+    public override void Update()
     {
         base.Update();
 

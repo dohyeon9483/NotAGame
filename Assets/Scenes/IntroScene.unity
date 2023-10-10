@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: d93d77cee9d0feb4994a90e493801f56,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -235,7 +236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 500, y: 130}
+  m_AnchoredPosition: {x: 303, y: 130}
   m_SizeDelta: {x: 700, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407245644
@@ -271,7 +272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Not A Game
+  m_Text: ThisIsGame
 --- !u!222 &407245645
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -317,7 +318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 500, y: -200}
+  m_AnchoredPosition: {x: 322, y: -200}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &428508356
@@ -366,7 +367,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1549551909}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: GoToMainScene
+        m_MethodName: GoToScene1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -916,7 +917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -2, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1683916504
