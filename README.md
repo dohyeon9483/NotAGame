@@ -16,3 +16,16 @@
 강의에서 배운 VirtualCamera, PlayerSO 등의 설정값을 크게 바꾸어 보며 카메라의 시야, Damping, 플레이어 속도에 따라 카메라가 어떤 영향을 받는지,
 ProBuilder에는 또 어떤 기능들이 있는지 등 하나하나 만져보며 연구했습니다.
 맵을 만드는 부분이 처음 생각한 것보다 심하게 노가다라.. 맵 관련해서는 적당히만 진행했습니다.
+
+
+
+- 이외 기록들
+  
+초기 기획
+https://dh4934.tistory.com/70
+
+SavePoint 구현 시 애로사항 / Scene loading 시 오류
+https://dh4934.tistory.com/71
+
+배경음악
+https://dh4934.tistory.com/72
