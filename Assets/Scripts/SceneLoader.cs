@@ -17,18 +17,15 @@ public class SceneLoader : MonoBehaviour
     {
         if (other.CompareTag("MainScene"))
         {
-            SceneManager.LoadScene("MainScene"); // 
+            SceneManager.LoadScene("MainScene");  
         }
         else if (other.CompareTag("SecondScene"))
         {
-            SceneManager.LoadScene("SecondScene"); // 
+            SceneManager.LoadScene("SecondScene");  
         }
         else if (other.CompareTag("ThirdScene"))
         {
-            SceneManager.LoadScene("ThirdScene"); // ThirdScene 
+            SceneManager.LoadScene("ThirdScene");  
         }
-
-
-
     }
 }
